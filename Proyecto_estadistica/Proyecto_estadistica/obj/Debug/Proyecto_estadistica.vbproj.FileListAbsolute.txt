@@ -15,3 +15,4 @@ C:\Users\richa\Documents\GitHub\Novatos-de-estadistica\Proyecto_estadistica\Proy
 C:\Users\richa\Documents\GitHub\Novatos-de-estadistica\Proyecto_estadistica\Proyecto_estadistica\obj\Debug\Proyecto_estadistica.vbproj.CopyComplete
 C:\Users\richa\Documents\GitHub\Novatos-de-estadistica\Proyecto_estadistica\Proyecto_estadistica\bin\Debug\Bunifu.UI.WinForm.BunifuShadowPanel.dll
 C:\Users\richa\Documents\GitHub\Novatos-de-estadistica\Proyecto_estadistica\Proyecto_estadistica\bin\Debug\Bunifu.UI.WinForm.BunifuShadowPanel.xml
+C:\Users\richa\Documents\GitHub\Novatos-de-estadistica\Proyecto_estadistica\Proyecto_estadistica\obj\Debug\Proyecto_estadistica.Avance_1.resources
