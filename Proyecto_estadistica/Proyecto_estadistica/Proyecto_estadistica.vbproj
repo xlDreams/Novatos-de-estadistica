@@ -52,6 +52,9 @@
     <Reference Include="Bunifu.UI.WinForm.BunifuShadowPanel">
       <HintPath>G:\Programas\Programas Richard\Visual Studio\2019\Bunifu_UI_Form_1.9.0.1\Bunifu_UI_Form_1.﻿9.0.1\Bunifu UI WinForms 1.9.0.1\Bunifu.UI.WinForm.BunifuShadowPanel.dll</HintPath>
     </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuButton">
+      <HintPath>G:\Programas\Programas Richard\Visual Studio\2019\Bunifu_UI_Form_1.9.0.1\Bunifu_UI_Form_1.﻿9.0.1\Bunifu UI WinForms 1.9.0.1\Bunifu.UI.WinForms.BunifuButton.dll</HintPath>
+    </Reference>
     <Reference Include="Bunifu_UI_v1.5.3">
       <HintPath>G:\Programas\Programas Richard\Visual Studio\2019\Bunifu_UI_Form_1.9.0.1\Bunifu_UI_Form_1.﻿9.0.1\Bunifu UI WinForms 1.9.0.1\Bunifu_UI_v1.5.3.dll</HintPath>
     </Reference>
@@ -82,6 +85,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Actividades\Funciones.vb" />
     <Compile Include="Formularios\Formularios Hijos\Avance 1.Designer.vb">
       <DependentUpon>Avance 1.vb</DependentUpon>
     </Compile>
@@ -137,8 +141,6 @@
     </None>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Actividades\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
