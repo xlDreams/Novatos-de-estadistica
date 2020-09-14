@@ -112,7 +112,7 @@ Partial Class Principal
         Me.PanelContenedor.Controls.Add(Me.Novatostexto)
         Me.PanelContenedor.Location = New System.Drawing.Point(256, 39)
         Me.PanelContenedor.Name = "PanelContenedor"
-        Me.PanelContenedor.Size = New System.Drawing.Size(866, 491)
+        Me.PanelContenedor.Size = New System.Drawing.Size(906, 648)
         Me.PanelContenedor.TabIndex = 15
         '
         'PictureBox1
@@ -180,7 +180,7 @@ Partial Class Principal
         Me.Panel3.Controls.Add(Me.BunifuFlatButton1)
         Me.Panel3.Location = New System.Drawing.Point(-5, 39)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(261, 491)
+        Me.Panel3.Size = New System.Drawing.Size(261, 661)
         Me.Panel3.TabIndex = 6
         '
         'BunifuFlatButton2
@@ -190,7 +190,7 @@ Partial Class Principal
         Me.BunifuFlatButton2.BackColor = System.Drawing.Color.FromArgb(CType(CType(41, Byte), Integer), CType(CType(53, Byte), Integer), CType(CType(65, Byte), Integer))
         Me.BunifuFlatButton2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.BunifuFlatButton2.BorderRadius = 0
-        Me.BunifuFlatButton2.ButtonText = "segundo xD"
+        Me.BunifuFlatButton2.ButtonText = "Acerca de"
         Me.BunifuFlatButton2.Cursor = System.Windows.Forms.Cursors.Hand
         Me.BunifuFlatButton2.DisabledColor = System.Drawing.Color.Gray
         Me.BunifuFlatButton2.Iconcolor = System.Drawing.Color.Transparent
@@ -213,7 +213,7 @@ Partial Class Principal
         Me.BunifuFlatButton2.selected = False
         Me.BunifuFlatButton2.Size = New System.Drawing.Size(258, 48)
         Me.BunifuFlatButton2.TabIndex = 8
-        Me.BunifuFlatButton2.Text = "segundo xD"
+        Me.BunifuFlatButton2.Text = "Acerca de"
         Me.BunifuFlatButton2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         Me.BunifuFlatButton2.Textcolor = System.Drawing.Color.White
         Me.BunifuFlatButton2.TextFont = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -225,7 +225,7 @@ Partial Class Principal
         Me.BunifuFlatButton1.BackColor = System.Drawing.Color.FromArgb(CType(CType(41, Byte), Integer), CType(CType(53, Byte), Integer), CType(CType(65, Byte), Integer))
         Me.BunifuFlatButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.BunifuFlatButton1.BorderRadius = 0
-        Me.BunifuFlatButton1.ButtonText = "Primer avance"
+        Me.BunifuFlatButton1.ButtonText = "Avance # 1"
         Me.BunifuFlatButton1.Cursor = System.Windows.Forms.Cursors.Hand
         Me.BunifuFlatButton1.DisabledColor = System.Drawing.Color.Gray
         Me.BunifuFlatButton1.Iconcolor = System.Drawing.Color.Transparent
@@ -248,7 +248,7 @@ Partial Class Principal
         Me.BunifuFlatButton1.selected = False
         Me.BunifuFlatButton1.Size = New System.Drawing.Size(258, 48)
         Me.BunifuFlatButton1.TabIndex = 7
-        Me.BunifuFlatButton1.Text = "Primer avance"
+        Me.BunifuFlatButton1.Text = "Avance # 1"
         Me.BunifuFlatButton1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         Me.BunifuFlatButton1.Textcolor = System.Drawing.Color.White
         Me.BunifuFlatButton1.TextFont = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -266,13 +266,14 @@ Partial Class Principal
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.BackColor = System.Drawing.Color.Gainsboro
-        Me.ClientSize = New System.Drawing.Size(1121, 530)
+        Me.ClientSize = New System.Drawing.Size(1121, 600)
         Me.ControlBox = False
         Me.Controls.Add(Me.Panel3)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.PanelContenedor)
         Me.Controls.Add(Me.Panel1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Principal"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Proyecto de estadistica"

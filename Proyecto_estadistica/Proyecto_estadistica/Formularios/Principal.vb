@@ -25,4 +25,9 @@
         Novatostexto.Visible = False
         Abrirform(Avance_1)
     End Sub
+
+    Private Sub BunifuFlatButton2_Click(sender As Object, e As EventArgs) Handles BunifuFlatButton2.Click
+        Abrirform(info)
+        Novatostexto.Visible = False
+    End Sub
 End Class
