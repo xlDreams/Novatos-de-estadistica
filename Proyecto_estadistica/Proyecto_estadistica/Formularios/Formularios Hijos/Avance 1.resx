@@ -180,4 +180,15 @@
         hGQQkkFIBiEZhGQQkkFIBiEZhGQQ0pj7Ot8CzH2dP3Pzk1UweR6oAAAAAElFTkSuQmCC
 </value>
   </data>
+  <data name="BunifuButton4.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAKEAAAAgCAYAAAB6vRjLAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACBSURBVHhe7dIhEYBAAADBzwSFqAFlaPHEg8GjObNi1dkb
+        y3Ft63HdUHj/G18B/mRCciYkZ0JyJiRnQnImJGdCciYkZ0JyJiRnQnImJGdCciYkZ0JyJiRnQnImJGdC
+        ciYkZ0JyJiRnQnImJGdCciYkZ0JyJiRnQnJj3ef5FeAX+zwfxbwJLVTQzyEAAAAASUVORK5CYII=
+</value>
+  </data>
+  <metadata name="ttinfo.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
 </root>

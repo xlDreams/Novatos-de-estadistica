@@ -16,6 +16,7 @@ C:\Users\richa\Documents\GitHub\Novatos-de-estadistica\Proyecto_estadistica\Proy
 C:\Users\richa\Documents\GitHub\Novatos-de-estadistica\Proyecto_estadistica\Proyecto_estadistica\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.xml
 C:\Users\richa\Documents\GitHub\Novatos-de-estadistica\Proyecto_estadistica\Proyecto_estadistica\bin\Debug\Bunifu.UI.WinForms.BunifuRadioButton.xml
 C:\Users\richa\Documents\GitHub\Novatos-de-estadistica\Proyecto_estadistica\Proyecto_estadistica\bin\Debug\Bunifu_UI_v1.5.3.xml
+C:\Users\richa\Documents\GitHub\Novatos-de-estadistica\Proyecto_estadistica\Proyecto_estadistica\obj\Debug\Proyecto_estadistica.vbprojAssemblyReference.cache
 C:\Users\richa\Documents\GitHub\Novatos-de-estadistica\Proyecto_estadistica\Proyecto_estadistica\obj\Debug\Proyecto_estadistica.Avance_1.resources
 C:\Users\richa\Documents\GitHub\Novatos-de-estadistica\Proyecto_estadistica\Proyecto_estadistica\obj\Debug\Proyecto_estadistica.info.resources
 C:\Users\richa\Documents\GitHub\Novatos-de-estadistica\Proyecto_estadistica\Proyecto_estadistica\obj\Debug\Proyecto_estadistica.Principal.resources

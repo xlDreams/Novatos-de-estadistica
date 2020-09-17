@@ -22,6 +22,7 @@ Partial Class Avance_1
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
@@ -29,6 +30,7 @@ Partial Class Avance_1
         Dim StateProperties1 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
         Dim StateProperties2 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
         Dim StateProperties3 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties4 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
@@ -67,6 +69,8 @@ Partial Class Avance_1
         Me.Label17 = New System.Windows.Forms.Label()
         Me.Label18 = New System.Windows.Forms.Label()
         Me.Label19 = New System.Windows.Forms.Label()
+        Me.BunifuButton4 = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
+        Me.ttinfo = New System.Windows.Forms.ToolTip(Me.components)
         Me.Panel1.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
         CType(Me.BunifuDataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -237,7 +241,6 @@ Partial Class Avance_1
         Me.ListBox7.Location = New System.Drawing.Point(23, 237)
         Me.ListBox7.Name = "ListBox7"
         Me.ListBox7.Size = New System.Drawing.Size(193, 251)
-        Me.ListBox7.Sorted = True
         Me.ListBox7.TabIndex = 13
         '
         'Label7
@@ -600,7 +603,7 @@ Partial Class Avance_1
         Me.BunifuButton3.IdleFillColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(122, Byte), Integer), CType(CType(183, Byte), Integer))
         Me.BunifuButton3.IdleIconLeftImage = Nothing
         Me.BunifuButton3.IdleIconRightImage = Nothing
-        Me.BunifuButton3.Location = New System.Drawing.Point(484, 496)
+        Me.BunifuButton3.Location = New System.Drawing.Point(541, 496)
         Me.BunifuButton3.Name = "BunifuButton3"
         StateProperties3.BorderColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(96, Byte), Integer), CType(CType(144, Byte), Integer))
         StateProperties3.BorderRadius = 1
@@ -679,6 +682,39 @@ Partial Class Avance_1
         Me.Label19.TabIndex = 40
         Me.Label19.Text = " "
         '
+        'BunifuButton4
+        '
+        Me.BunifuButton4.BackColor = System.Drawing.Color.Transparent
+        Me.BunifuButton4.BackgroundImage = CType(resources.GetObject("BunifuButton4.BackgroundImage"), System.Drawing.Image)
+        Me.BunifuButton4.ButtonText = "Actualizar el intervalo"
+        Me.BunifuButton4.ButtonTextMarginLeft = 0
+        Me.BunifuButton4.DisabledBorderColor = System.Drawing.Color.FromArgb(CType(CType(161, Byte), Integer), CType(CType(161, Byte), Integer), CType(CType(161, Byte), Integer))
+        Me.BunifuButton4.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(122, Byte), Integer), CType(CType(185, Byte), Integer))
+        Me.BunifuButton4.DisabledForecolor = System.Drawing.Color.White
+        Me.BunifuButton4.Enabled = False
+        Me.BunifuButton4.ForeColor = System.Drawing.Color.White
+        Me.BunifuButton4.IconLeftCursor = System.Windows.Forms.Cursors.Default
+        Me.BunifuButton4.IconPadding = 10
+        Me.BunifuButton4.IconRightCursor = System.Windows.Forms.Cursors.Default
+        Me.BunifuButton4.IdleBorderColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(122, Byte), Integer), CType(CType(183, Byte), Integer))
+        Me.BunifuButton4.IdleBorderRadius = 1
+        Me.BunifuButton4.IdleBorderThickness = 0
+        Me.BunifuButton4.IdleFillColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(122, Byte), Integer), CType(CType(183, Byte), Integer))
+        Me.BunifuButton4.IdleIconLeftImage = Nothing
+        Me.BunifuButton4.IdleIconRightImage = Nothing
+        Me.BunifuButton4.Location = New System.Drawing.Point(374, 496)
+        Me.BunifuButton4.Name = "BunifuButton4"
+        StateProperties4.BorderColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(96, Byte), Integer), CType(CType(144, Byte), Integer))
+        StateProperties4.BorderRadius = 1
+        StateProperties4.BorderThickness = 1
+        StateProperties4.FillColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(96, Byte), Integer), CType(CType(144, Byte), Integer))
+        StateProperties4.IconLeftImage = Nothing
+        StateProperties4.IconRightImage = Nothing
+        Me.BunifuButton4.onHoverState = StateProperties4
+        Me.BunifuButton4.Size = New System.Drawing.Size(161, 32)
+        Me.BunifuButton4.TabIndex = 41
+        Me.BunifuButton4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'Avance_1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -687,6 +723,7 @@ Partial Class Avance_1
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(906, 548)
         Me.ControlBox = False
+        Me.Controls.Add(Me.BunifuButton4)
         Me.Controls.Add(Me.Label19)
         Me.Controls.Add(Me.Label18)
         Me.Controls.Add(Me.Label17)
@@ -768,4 +805,6 @@ Partial Class Avance_1
     Friend WithEvents Label17 As Label
     Friend WithEvents Label18 As Label
     Friend WithEvents Label19 As Label
+    Friend WithEvents BunifuButton4 As Bunifu.UI.WinForms.BunifuButton.BunifuButton
+    Friend WithEvents ttinfo As ToolTip
 End Class

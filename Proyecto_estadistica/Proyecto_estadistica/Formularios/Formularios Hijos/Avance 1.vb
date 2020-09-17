@@ -8,7 +8,7 @@ Public Class Avance_1
     Dim contador As Integer = 1
     Dim Funcion As New Funciones
     Dim Interv As Double
-
+    Dim condicion As Boolean = False
 
 
 
@@ -97,13 +97,20 @@ Public Class Avance_1
     End Sub
 
     Private Sub BunifuButton2_Click(sender As Object, e As EventArgs) Handles BunifuButton2.Click
+
         If BunifuMetroTextbox2.Text.ToString <> "" Then
             If BunifuMetroTextbox2.Text > 0 Then
-                ListBox7.Items.Add(BunifuMetroTextbox2.Text)
+
+                If condicion = False Then
+
+                    ListBox7.Items.Add(BunifuMetroTextbox2.Text)
+                End If
+
 
 
 
                 If ListBox7.Items.Count = Muestra Then
+                    BunifuButton4.Enabled = True
                     BunifuMetroTextbox2.Enabled = False
 
                     'llamando la funcion de ordenar
@@ -140,12 +147,15 @@ ETIQUETA:
                         Interv = Label4.Text
                     End If
 
-
+                    'AMPLITUD 
                     If BunifuCheckBox1.Checked = True Then
                         Dim temporal As Double
 
                         temporal = Math.Round(Rango.Text / Interv, 3)
                         Label10.Text = Math.Round(temporal + 0.5)
+                        If Label10.Text < 1 Then
+                            Label10.Text = 1
+                        End If
                     Else
                         Label10.Text = Math.Round(Rango.Text / Interv, 3)
                     End If
@@ -198,18 +208,20 @@ ETIQUETA:
         Rango.Text = ""
         Label4.Text = ""
         Label10.Text = ""
-
+        Label15.Text = ""
+        Label17.Text = ""
+        Label19.Text = ""
+        BunifuButton4.Enabled = False
         BunifuMetroTextbox1.Text = Nothing
         BunifuMetroTextbox2.Text = Nothing
         BunifuMetroTextbox3.Text = Nothing
 
         BunifuMetroTextbox1.Enabled = True
-        BunifuMetroTextbox2.Enabled = True
-        BunifuMetroTextbox3.Enabled = True
         BunifuButton1.Enabled = True
         contador = 0
         BunifuMetroTextbox2.Enabled = False
-        BunifuMetroTextbox3.Enabled = False
+
+        condicion = False
 
     End Sub
 
@@ -340,5 +352,57 @@ ETIQUETA:
 
     Private Sub BunifuMetroTextbox3_KeyPress(sender As Object, e As KeyPressEventArgs) Handles BunifuMetroTextbox3.KeyPress
         e.Handled = Not IsNumeric(e.KeyChar) And Not Char.IsControl(e.KeyChar)
+    End Sub
+
+    Private Sub BunifuButton4_Click(sender As Object, e As EventArgs) Handles BunifuButton4.Click
+        BunifuDataGridView1.Rows.Clear()
+        Rango.Text = ""
+        Label4.Text = ""
+        Label10.Text = ""
+        Label15.Text = ""
+        Label17.Text = ""
+        Label19.Text = ""
+        BunifuCheckBox2.Checked = True
+        contador = 0
+        condicion = True
+
+        Try
+etiquet:
+            BunifuMetroTextbox3.Text = InputBox("Introduzca el nuevo intervalo", "Actualizar Intervalo")
+            BunifuMetroTextbox2.Text = 1
+            If BunifuMetroTextbox3.Text > 0 Then
+                Interv = BunifuMetroTextbox3.Text
+                BunifuButton2.PerformClick()
+            Else
+                GoTo etiquet
+            End If
+
+
+        Catch ex As Exception
+            BunifuMetroTextbox3.Text = Nothing
+            MsgBox("Debe ingresar un dato valido", MsgBoxStyle.Critical, "INFORMACION")
+            GoTo etiquet
+        End Try
+
+        BunifuMetroTextbox2.Text = Nothing
+
+    End Sub
+
+    Private Sub BunifuMetroTextbox1_MouseHover(sender As Object, e As EventArgs) Handles BunifuMetroTextbox1.MouseHover
+        ttinfo.SetToolTip(BunifuMetroTextbox1, "Ingrese aqui solo Numeros Enteros")
+        ttinfo.ToolTipTitle = "Informaciòn"
+        ttinfo.ToolTipIcon = ToolTipIcon.Info
+    End Sub
+
+    Private Sub BunifuCheckBox2_MouseHover(sender As Object, e As EventArgs) Handles BunifuCheckBox2.MouseHover
+        ttinfo.SetToolTip(BunifuCheckBox2, "Activar el intervalo")
+        ttinfo.ToolTipTitle = "Informaciòn"
+        ttinfo.ToolTipIcon = ToolTipIcon.Info
+    End Sub
+
+    Private Sub BunifuCheckBox1_MouseHover(sender As Object, e As EventArgs) Handles BunifuCheckBox1.MouseHover
+        ttinfo.SetToolTip(BunifuCheckBox1, "Marcar antes de ingresar datos")
+        ttinfo.ToolTipTitle = "Informaciòn"
+        ttinfo.ToolTipIcon = ToolTipIcon.Info
     End Sub
 End Class
