@@ -1,2 +1,4 @@
-
-Por favor comentar en GitHub todos los cambios que realicen
+#Programa de estadistica
+-Tabla de frecuencia para datos agrupados.
+-Probabilidad de ocurrencia.
+-Media muestral
