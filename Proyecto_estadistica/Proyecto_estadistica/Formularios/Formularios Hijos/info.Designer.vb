@@ -27,10 +27,6 @@ Partial Class info
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.Label9 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.BunifuCards1 = New Bunifu.Framework.UI.BunifuCards()
         Me.BunifuCards2 = New Bunifu.Framework.UI.BunifuCards()
@@ -92,60 +88,16 @@ Partial Class info
         Me.Label2.ForeColor = System.Drawing.Color.White
         Me.Label2.Location = New System.Drawing.Point(160, 32)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(161, 25)
+        Me.Label2.Size = New System.Drawing.Size(139, 25)
         Me.Label2.TabIndex = 16
-        Me.Label2.Text = "Desarrolladores"
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Roboto", 15.75!)
-        Me.Label4.ForeColor = System.Drawing.Color.White
-        Me.Label4.Location = New System.Drawing.Point(85, 45)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(302, 25)
-        Me.Label4.TabIndex = 18
-        Me.Label4.Text = "Jose Martin Pereira Hernandez"
-        '
-        'Label6
-        '
-        Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Roboto", 15.75!)
-        Me.Label6.ForeColor = System.Drawing.Color.White
-        Me.Label6.Location = New System.Drawing.Point(85, 83)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(305, 25)
-        Me.Label6.TabIndex = 19
-        Me.Label6.Text = "Alberto Salomon Perez Romero"
-        '
-        'Label8
-        '
-        Me.Label8.AutoSize = True
-        Me.Label8.Font = New System.Drawing.Font("Roboto", 15.75!)
-        Me.Label8.ForeColor = System.Drawing.Color.White
-        Me.Label8.Location = New System.Drawing.Point(64, 120)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(356, 25)
-        Me.Label8.TabIndex = 20
-        Me.Label8.Text = "Yefferic Alexander Vasquez Vasquez"
-        '
-        'Label9
-        '
-        Me.Label9.AutoSize = True
-        Me.Label9.Font = New System.Drawing.Font("Roboto", 15.75!)
-        Me.Label9.ForeColor = System.Drawing.Color.White
-        Me.Label9.Location = New System.Drawing.Point(85, 155)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(293, 25)
-        Me.Label9.TabIndex = 21
-        Me.Label9.Text = "Danny Josue Garcia Gonzales"
+        Me.Label2.Text = "Desarrollador"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Roboto", 15.75!)
         Me.Label3.ForeColor = System.Drawing.Color.White
-        Me.Label3.Location = New System.Drawing.Point(88, 11)
+        Me.Label3.Location = New System.Drawing.Point(88, 18)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(304, 25)
         Me.Label3.TabIndex = 17
@@ -188,17 +140,13 @@ Partial Class info
         Me.BunifuCards3.BorderRadius = 10
         Me.BunifuCards3.BottomSahddow = True
         Me.BunifuCards3.color = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(183, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.BunifuCards3.Controls.Add(Me.Label9)
         Me.BunifuCards3.Controls.Add(Me.Label3)
-        Me.BunifuCards3.Controls.Add(Me.Label8)
-        Me.BunifuCards3.Controls.Add(Me.Label4)
-        Me.BunifuCards3.Controls.Add(Me.Label6)
         Me.BunifuCards3.LeftSahddow = False
         Me.BunifuCards3.Location = New System.Drawing.Point(216, 244)
         Me.BunifuCards3.Name = "BunifuCards3"
         Me.BunifuCards3.RightSahddow = True
         Me.BunifuCards3.ShadowDepth = 20
-        Me.BunifuCards3.Size = New System.Drawing.Size(465, 197)
+        Me.BunifuCards3.Size = New System.Drawing.Size(465, 67)
         Me.BunifuCards3.TabIndex = 25
         '
         'info
@@ -232,10 +180,6 @@ Partial Class info
     Friend WithEvents Label7 As Label
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
-    Friend WithEvents Label4 As Label
-    Friend WithEvents Label6 As Label
-    Friend WithEvents Label8 As Label
-    Friend WithEvents Label9 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents BunifuCards1 As Bunifu.Framework.UI.BunifuCards
     Friend WithEvents BunifuCards2 As Bunifu.Framework.UI.BunifuCards

@@ -16,7 +16,6 @@ C:\Users\richa\Documents\GitHub\Novatos-de-estadistica\Proyecto_estadistica\Proy
 C:\Users\richa\Documents\GitHub\Novatos-de-estadistica\Proyecto_estadistica\Proyecto_estadistica\bin\Debug\Bunifu.UI.WinForms.BunifuTextbox.dll
 C:\Users\richa\Documents\GitHub\Novatos-de-estadistica\Proyecto_estadistica\Proyecto_estadistica\bin\Debug\Bunifu.UI.WinForms.ToggleSwitch.dll
 C:\Users\richa\Documents\GitHub\Novatos-de-estadistica\Proyecto_estadistica\Proyecto_estadistica\bin\Debug\Bunifu_UI_v1.5.3.dll
-C:\Users\richa\Documents\GitHub\Novatos-de-estadistica\Proyecto_estadistica\Proyecto_estadistica\bin\Debug\Guna.UI.dll
 C:\Users\richa\Documents\GitHub\Novatos-de-estadistica\Proyecto_estadistica\Proyecto_estadistica\bin\Debug\Bunifu.UI.WinForm.BunifuShadowPanel.xml
 C:\Users\richa\Documents\GitHub\Novatos-de-estadistica\Proyecto_estadistica\Proyecto_estadistica\bin\Debug\Bunifu.UI.WinForms.BunifuButton.xml
 C:\Users\richa\Documents\GitHub\Novatos-de-estadistica\Proyecto_estadistica\Proyecto_estadistica\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.xml
@@ -43,3 +42,4 @@ C:\Users\richa\Documents\GitHub\Novatos-de-estadistica\Proyecto_estadistica\Proy
 C:\Users\richa\Documents\GitHub\Novatos-de-estadistica\Proyecto_estadistica\Proyecto_estadistica\obj\Debug\Proyecto_estadistica.exe
 C:\Users\richa\Documents\GitHub\Novatos-de-estadistica\Proyecto_estadistica\Proyecto_estadistica\obj\Debug\Proyecto_estadistica.xml
 C:\Users\richa\Documents\GitHub\Novatos-de-estadistica\Proyecto_estadistica\Proyecto_estadistica\obj\Debug\Proyecto_estadistica.pdb
+C:\Users\richa\Documents\GitHub\Novatos-de-estadistica\Proyecto_estadistica\Proyecto_estadistica\obj\Debug\Proyecto_estadistica.vbprojAssemblyReference.cache
