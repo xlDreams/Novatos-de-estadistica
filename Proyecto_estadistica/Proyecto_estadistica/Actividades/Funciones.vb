@@ -1,4 +1,5 @@
 ﻿Public Class Funciones
+    Public retorno As Double
     Sub Ordenar_Listbox(ByVal Listbox7 As ListBox)
         ' Metodo de burbuja es esta wea xD
         Dim Auxiliar As Double
@@ -17,11 +18,25 @@
 
 
 
-
-
-
     End Sub
 
+    Sub n_factorial(ByVal N As Double)
+        Dim i As Double
+        Dim numero As Double
+        Dim factorial As Double
+
+        factorial = 1
+        numero = Val(N)
+
+        '   PROCESO
+        For i = 1 To numero
+            factorial = factorial * i
+        Next i
+
+        '   SALIDA
+        retorno = factorial
+
+    End Sub
 
 
 End Class

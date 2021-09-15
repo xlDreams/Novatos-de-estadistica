@@ -36,9 +36,11 @@ Partial Class Principal
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.BunifuFlatButton3 = New Bunifu.Framework.UI.BunifuFlatButton()
         Me.BunifuFlatButton2 = New Bunifu.Framework.UI.BunifuFlatButton()
         Me.BunifuFlatButton1 = New Bunifu.Framework.UI.BunifuFlatButton()
         Me.BunifuDragControl2 = New Bunifu.Framework.UI.BunifuDragControl(Me.components)
+        Me.BunifuFlatButton4 = New Bunifu.Framework.UI.BunifuFlatButton()
         Me.Panel1.SuspendLayout()
         CType(Me.pictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.bunifuImageButton2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -87,7 +89,7 @@ Partial Class Principal
         Me.bunifuImageButton2.Cursor = System.Windows.Forms.Cursors.Hand
         Me.bunifuImageButton2.Image = CType(resources.GetObject("bunifuImageButton2.Image"), System.Drawing.Image)
         Me.bunifuImageButton2.ImageActive = Nothing
-        Me.bunifuImageButton2.Location = New System.Drawing.Point(821, 3)
+        Me.bunifuImageButton2.Location = New System.Drawing.Point(837, 3)
         Me.bunifuImageButton2.Name = "bunifuImageButton2"
         Me.bunifuImageButton2.Size = New System.Drawing.Size(36, 33)
         Me.bunifuImageButton2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -112,7 +114,7 @@ Partial Class Principal
         Me.PanelContenedor.Controls.Add(Me.Novatostexto)
         Me.PanelContenedor.Location = New System.Drawing.Point(256, 39)
         Me.PanelContenedor.Name = "PanelContenedor"
-        Me.PanelContenedor.Size = New System.Drawing.Size(906, 648)
+        Me.PanelContenedor.Size = New System.Drawing.Size(939, 648)
         Me.PanelContenedor.TabIndex = 15
         '
         'PictureBox1
@@ -146,7 +148,7 @@ Partial Class Principal
         Me.Panel2.Controls.Add(Me.bunifuImageButton2)
         Me.Panel2.Location = New System.Drawing.Point(256, 0)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(866, 39)
+        Me.Panel2.Size = New System.Drawing.Size(899, 39)
         Me.Panel2.TabIndex = 5
         '
         'PictureBox3
@@ -175,7 +177,9 @@ Partial Class Principal
         '
         Me.Panel3.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.Panel3.BackColor = System.Drawing.Color.FromArgb(CType(CType(41, Byte), Integer), CType(CType(53, Byte), Integer), CType(CType(65, Byte), Integer))
+        Me.Panel3.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(65, Byte), Integer))
+        Me.Panel3.Controls.Add(Me.BunifuFlatButton4)
+        Me.Panel3.Controls.Add(Me.BunifuFlatButton3)
         Me.Panel3.Controls.Add(Me.BunifuFlatButton2)
         Me.Panel3.Controls.Add(Me.BunifuFlatButton1)
         Me.Panel3.Location = New System.Drawing.Point(-5, 39)
@@ -183,14 +187,50 @@ Partial Class Principal
         Me.Panel3.Size = New System.Drawing.Size(261, 661)
         Me.Panel3.TabIndex = 6
         '
+        'BunifuFlatButton3
+        '
+        Me.BunifuFlatButton3.Active = False
+        Me.BunifuFlatButton3.Activecolor = System.Drawing.Color.FromArgb(CType(CType(31, Byte), Integer), CType(CType(43, Byte), Integer), CType(CType(55, Byte), Integer))
+        Me.BunifuFlatButton3.BackColor = System.Drawing.Color.FromArgb(CType(CType(41, Byte), Integer), CType(CType(53, Byte), Integer), CType(CType(65, Byte), Integer))
+        Me.BunifuFlatButton3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BunifuFlatButton3.BorderRadius = 0
+        Me.BunifuFlatButton3.ButtonText = "Avance # 2"
+        Me.BunifuFlatButton3.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BunifuFlatButton3.DisabledColor = System.Drawing.Color.Gray
+        Me.BunifuFlatButton3.ForeColor = System.Drawing.Color.White
+        Me.BunifuFlatButton3.Iconcolor = System.Drawing.Color.Transparent
+        Me.BunifuFlatButton3.Iconimage = Nothing
+        Me.BunifuFlatButton3.Iconimage_right = Nothing
+        Me.BunifuFlatButton3.Iconimage_right_Selected = Nothing
+        Me.BunifuFlatButton3.Iconimage_Selected = Nothing
+        Me.BunifuFlatButton3.IconMarginLeft = 0
+        Me.BunifuFlatButton3.IconMarginRight = 0
+        Me.BunifuFlatButton3.IconRightVisible = True
+        Me.BunifuFlatButton3.IconRightZoom = 0R
+        Me.BunifuFlatButton3.IconVisible = True
+        Me.BunifuFlatButton3.IconZoom = 90.0R
+        Me.BunifuFlatButton3.IsTab = True
+        Me.BunifuFlatButton3.Location = New System.Drawing.Point(1, 89)
+        Me.BunifuFlatButton3.Name = "BunifuFlatButton3"
+        Me.BunifuFlatButton3.Normalcolor = System.Drawing.Color.FromArgb(CType(CType(41, Byte), Integer), CType(CType(53, Byte), Integer), CType(CType(65, Byte), Integer))
+        Me.BunifuFlatButton3.OnHovercolor = System.Drawing.Color.FromArgb(CType(CType(31, Byte), Integer), CType(CType(43, Byte), Integer), CType(CType(55, Byte), Integer))
+        Me.BunifuFlatButton3.OnHoverTextColor = System.Drawing.Color.White
+        Me.BunifuFlatButton3.selected = False
+        Me.BunifuFlatButton3.Size = New System.Drawing.Size(258, 48)
+        Me.BunifuFlatButton3.TabIndex = 3
+        Me.BunifuFlatButton3.Text = "Avance # 2"
+        Me.BunifuFlatButton3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.BunifuFlatButton3.Textcolor = System.Drawing.Color.White
+        Me.BunifuFlatButton3.TextFont = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        '
         'BunifuFlatButton2
         '
-        Me.BunifuFlatButton2.Active = False
+        Me.BunifuFlatButton2.Active = True
         Me.BunifuFlatButton2.Activecolor = System.Drawing.Color.FromArgb(CType(CType(31, Byte), Integer), CType(CType(43, Byte), Integer), CType(CType(55, Byte), Integer))
-        Me.BunifuFlatButton2.BackColor = System.Drawing.Color.FromArgb(CType(CType(41, Byte), Integer), CType(CType(53, Byte), Integer), CType(CType(65, Byte), Integer))
+        Me.BunifuFlatButton2.BackColor = System.Drawing.Color.FromArgb(CType(CType(31, Byte), Integer), CType(CType(43, Byte), Integer), CType(CType(55, Byte), Integer))
         Me.BunifuFlatButton2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.BunifuFlatButton2.BorderRadius = 0
-        Me.BunifuFlatButton2.ButtonText = "Acerca de"
+        Me.BunifuFlatButton2.ButtonText = "Integrantes"
         Me.BunifuFlatButton2.Cursor = System.Windows.Forms.Cursors.Hand
         Me.BunifuFlatButton2.DisabledColor = System.Drawing.Color.Gray
         Me.BunifuFlatButton2.Iconcolor = System.Drawing.Color.Transparent
@@ -204,16 +244,16 @@ Partial Class Principal
         Me.BunifuFlatButton2.IconRightZoom = 0R
         Me.BunifuFlatButton2.IconVisible = True
         Me.BunifuFlatButton2.IconZoom = 90.0R
-        Me.BunifuFlatButton2.IsTab = False
-        Me.BunifuFlatButton2.Location = New System.Drawing.Point(3, 46)
+        Me.BunifuFlatButton2.IsTab = True
+        Me.BunifuFlatButton2.Location = New System.Drawing.Point(3, 0)
         Me.BunifuFlatButton2.Name = "BunifuFlatButton2"
         Me.BunifuFlatButton2.Normalcolor = System.Drawing.Color.FromArgb(CType(CType(41, Byte), Integer), CType(CType(53, Byte), Integer), CType(CType(65, Byte), Integer))
         Me.BunifuFlatButton2.OnHovercolor = System.Drawing.Color.FromArgb(CType(CType(31, Byte), Integer), CType(CType(43, Byte), Integer), CType(CType(55, Byte), Integer))
         Me.BunifuFlatButton2.OnHoverTextColor = System.Drawing.Color.White
-        Me.BunifuFlatButton2.selected = False
+        Me.BunifuFlatButton2.selected = True
         Me.BunifuFlatButton2.Size = New System.Drawing.Size(258, 48)
-        Me.BunifuFlatButton2.TabIndex = 8
-        Me.BunifuFlatButton2.Text = "Acerca de"
+        Me.BunifuFlatButton2.TabIndex = 1
+        Me.BunifuFlatButton2.Text = "Integrantes"
         Me.BunifuFlatButton2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         Me.BunifuFlatButton2.Textcolor = System.Drawing.Color.White
         Me.BunifuFlatButton2.TextFont = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -228,6 +268,7 @@ Partial Class Principal
         Me.BunifuFlatButton1.ButtonText = "Avance # 1"
         Me.BunifuFlatButton1.Cursor = System.Windows.Forms.Cursors.Hand
         Me.BunifuFlatButton1.DisabledColor = System.Drawing.Color.Gray
+        Me.BunifuFlatButton1.ForeColor = System.Drawing.Color.White
         Me.BunifuFlatButton1.Iconcolor = System.Drawing.Color.Transparent
         Me.BunifuFlatButton1.Iconimage = Nothing
         Me.BunifuFlatButton1.Iconimage_right = Nothing
@@ -239,15 +280,15 @@ Partial Class Principal
         Me.BunifuFlatButton1.IconRightZoom = 0R
         Me.BunifuFlatButton1.IconVisible = True
         Me.BunifuFlatButton1.IconZoom = 90.0R
-        Me.BunifuFlatButton1.IsTab = False
-        Me.BunifuFlatButton1.Location = New System.Drawing.Point(3, 3)
+        Me.BunifuFlatButton1.IsTab = True
+        Me.BunifuFlatButton1.Location = New System.Drawing.Point(3, 42)
         Me.BunifuFlatButton1.Name = "BunifuFlatButton1"
         Me.BunifuFlatButton1.Normalcolor = System.Drawing.Color.FromArgb(CType(CType(41, Byte), Integer), CType(CType(53, Byte), Integer), CType(CType(65, Byte), Integer))
         Me.BunifuFlatButton1.OnHovercolor = System.Drawing.Color.FromArgb(CType(CType(31, Byte), Integer), CType(CType(43, Byte), Integer), CType(CType(55, Byte), Integer))
         Me.BunifuFlatButton1.OnHoverTextColor = System.Drawing.Color.White
         Me.BunifuFlatButton1.selected = False
         Me.BunifuFlatButton1.Size = New System.Drawing.Size(258, 48)
-        Me.BunifuFlatButton1.TabIndex = 7
+        Me.BunifuFlatButton1.TabIndex = 2
         Me.BunifuFlatButton1.Text = "Avance # 1"
         Me.BunifuFlatButton1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         Me.BunifuFlatButton1.Textcolor = System.Drawing.Color.White
@@ -260,13 +301,49 @@ Partial Class Principal
         Me.BunifuDragControl2.TargetControl = Me.Panel2
         Me.BunifuDragControl2.Vertical = True
         '
+        'BunifuFlatButton4
+        '
+        Me.BunifuFlatButton4.Active = False
+        Me.BunifuFlatButton4.Activecolor = System.Drawing.Color.FromArgb(CType(CType(31, Byte), Integer), CType(CType(43, Byte), Integer), CType(CType(55, Byte), Integer))
+        Me.BunifuFlatButton4.BackColor = System.Drawing.Color.FromArgb(CType(CType(41, Byte), Integer), CType(CType(53, Byte), Integer), CType(CType(65, Byte), Integer))
+        Me.BunifuFlatButton4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BunifuFlatButton4.BorderRadius = 0
+        Me.BunifuFlatButton4.ButtonText = "Avance # 3"
+        Me.BunifuFlatButton4.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BunifuFlatButton4.DisabledColor = System.Drawing.Color.Gray
+        Me.BunifuFlatButton4.ForeColor = System.Drawing.Color.White
+        Me.BunifuFlatButton4.Iconcolor = System.Drawing.Color.Transparent
+        Me.BunifuFlatButton4.Iconimage = Nothing
+        Me.BunifuFlatButton4.Iconimage_right = Nothing
+        Me.BunifuFlatButton4.Iconimage_right_Selected = Nothing
+        Me.BunifuFlatButton4.Iconimage_Selected = Nothing
+        Me.BunifuFlatButton4.IconMarginLeft = 0
+        Me.BunifuFlatButton4.IconMarginRight = 0
+        Me.BunifuFlatButton4.IconRightVisible = True
+        Me.BunifuFlatButton4.IconRightZoom = 0R
+        Me.BunifuFlatButton4.IconVisible = True
+        Me.BunifuFlatButton4.IconZoom = 90.0R
+        Me.BunifuFlatButton4.IsTab = True
+        Me.BunifuFlatButton4.Location = New System.Drawing.Point(1, 136)
+        Me.BunifuFlatButton4.Name = "BunifuFlatButton4"
+        Me.BunifuFlatButton4.Normalcolor = System.Drawing.Color.FromArgb(CType(CType(41, Byte), Integer), CType(CType(53, Byte), Integer), CType(CType(65, Byte), Integer))
+        Me.BunifuFlatButton4.OnHovercolor = System.Drawing.Color.FromArgb(CType(CType(31, Byte), Integer), CType(CType(43, Byte), Integer), CType(CType(55, Byte), Integer))
+        Me.BunifuFlatButton4.OnHoverTextColor = System.Drawing.Color.White
+        Me.BunifuFlatButton4.selected = False
+        Me.BunifuFlatButton4.Size = New System.Drawing.Size(258, 48)
+        Me.BunifuFlatButton4.TabIndex = 4
+        Me.BunifuFlatButton4.Text = "Avance # 3"
+        Me.BunifuFlatButton4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.BunifuFlatButton4.Textcolor = System.Drawing.Color.White
+        Me.BunifuFlatButton4.TextFont = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        '
         'Principal
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.BackColor = System.Drawing.Color.Gainsboro
-        Me.ClientSize = New System.Drawing.Size(1121, 600)
+        Me.ClientSize = New System.Drawing.Size(1154, 600)
         Me.ControlBox = False
         Me.Controls.Add(Me.Panel3)
         Me.Controls.Add(Me.Panel2)
@@ -307,4 +384,6 @@ Partial Class Principal
     Friend WithEvents BunifuDragControl2 As Bunifu.Framework.UI.BunifuDragControl
     Friend WithEvents BunifuFlatButton1 As Bunifu.Framework.UI.BunifuFlatButton
     Friend WithEvents BunifuFlatButton2 As Bunifu.Framework.UI.BunifuFlatButton
+    Friend WithEvents BunifuFlatButton3 As Bunifu.Framework.UI.BunifuFlatButton
+    Friend WithEvents BunifuFlatButton4 As Bunifu.Framework.UI.BunifuFlatButton
 End Class

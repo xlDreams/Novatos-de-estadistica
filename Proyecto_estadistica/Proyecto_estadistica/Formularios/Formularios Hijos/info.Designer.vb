@@ -43,7 +43,7 @@ Partial Class info
         '
         'Panel1
         '
-        Me.Panel1.BackColor = System.Drawing.Color.AliceBlue
+        Me.Panel1.BackColor = System.Drawing.Color.MediumSeaGreen
         Me.Panel1.Controls.Add(Me.Label5)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
@@ -55,8 +55,8 @@ Partial Class info
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Roboto", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(114, Byte), Integer), CType(CType(112, Byte), Integer), CType(CType(123, Byte), Integer))
-        Me.Label5.Location = New System.Drawing.Point(337, 4)
+        Me.Label5.ForeColor = System.Drawing.Color.White
+        Me.Label5.Location = New System.Drawing.Point(361, 4)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(220, 25)
         Me.Label5.TabIndex = 5

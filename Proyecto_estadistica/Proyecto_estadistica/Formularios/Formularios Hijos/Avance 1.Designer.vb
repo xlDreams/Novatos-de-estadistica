@@ -23,14 +23,14 @@ Partial Class Avance_1
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle7 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle8 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle9 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Avance_1))
-        Dim StateProperties1 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties2 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties3 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties4 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties9 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties10 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties11 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties12 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
@@ -78,7 +78,7 @@ Partial Class Avance_1
         '
         'Panel1
         '
-        Me.Panel1.BackColor = System.Drawing.Color.AliceBlue
+        Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.Panel1.Controls.Add(Me.Label5)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
@@ -90,7 +90,7 @@ Partial Class Avance_1
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Roboto", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(114, Byte), Integer), CType(CType(112, Byte), Integer), CType(CType(123, Byte), Integer))
+        Me.Label5.ForeColor = System.Drawing.Color.White
         Me.Label5.Location = New System.Drawing.Point(391, 4)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(148, 25)
@@ -123,22 +123,22 @@ Partial Class Avance_1
         Me.BunifuDataGridView1.AllowCustomTheming = False
         Me.BunifuDataGridView1.AllowUserToAddRows = False
         Me.BunifuDataGridView1.AllowUserToDeleteRows = False
-        DataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(251, Byte), Integer), CType(CType(255, Byte), Integer))
-        DataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black
-        Me.BunifuDataGridView1.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
+        DataGridViewCellStyle7.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(251, Byte), Integer), CType(CType(255, Byte), Integer))
+        DataGridViewCellStyle7.ForeColor = System.Drawing.Color.Black
+        Me.BunifuDataGridView1.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle7
         Me.BunifuDataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
         Me.BunifuDataGridView1.BackgroundColor = System.Drawing.Color.WhiteSmoke
         Me.BunifuDataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.BunifuDataGridView1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal
         Me.BunifuDataGridView1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
-        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle2.BackColor = System.Drawing.Color.DodgerBlue
-        DataGridViewCellStyle2.Font = New System.Drawing.Font("Segoe UI Semibold", 11.75!, System.Drawing.FontStyle.Bold)
-        DataGridViewCellStyle2.ForeColor = System.Drawing.Color.White
-        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.BunifuDataGridView1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
+        DataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle8.BackColor = System.Drawing.Color.DodgerBlue
+        DataGridViewCellStyle8.Font = New System.Drawing.Font("Segoe UI Semibold", 11.75!, System.Drawing.FontStyle.Bold)
+        DataGridViewCellStyle8.ForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.BunifuDataGridView1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle8
         Me.BunifuDataGridView1.ColumnHeadersHeight = 40
         Me.BunifuDataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Intervalo, Me.M, Me.fminuscula, Me.Fmayuscula, Me.fr, Me.fporciento})
         Me.BunifuDataGridView1.CurrentTheme.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(251, Byte), Integer), CType(CType(255, Byte), Integer))
@@ -157,14 +157,14 @@ Partial Class Avance_1
         Me.BunifuDataGridView1.CurrentTheme.RowsStyle.ForeColor = System.Drawing.Color.Black
         Me.BunifuDataGridView1.CurrentTheme.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(210, Byte), Integer), CType(CType(232, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.BunifuDataGridView1.CurrentTheme.RowsStyle.SelectionForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle3.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle3.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold)
-        DataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(210, Byte), Integer), CType(CType(232, Byte), Integer), CType(CType(255, Byte), Integer))
-        DataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.BunifuDataGridView1.DefaultCellStyle = DataGridViewCellStyle3
+        DataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle9.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle9.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold)
+        DataGridViewCellStyle9.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(210, Byte), Integer), CType(CType(232, Byte), Integer), CType(CType(255, Byte), Integer))
+        DataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.BunifuDataGridView1.DefaultCellStyle = DataGridViewCellStyle9
         Me.BunifuDataGridView1.EnableHeadersVisualStyles = False
         Me.BunifuDataGridView1.GridColor = System.Drawing.Color.FromArgb(CType(CType(221, Byte), Integer), CType(CType(238, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.BunifuDataGridView1.HeaderBackColor = System.Drawing.Color.DodgerBlue
@@ -227,7 +227,7 @@ Partial Class Avance_1
         Me.BunifuMetroTextbox1.Font = New System.Drawing.Font("Century Gothic", 9.75!)
         Me.BunifuMetroTextbox1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.BunifuMetroTextbox1.isPassword = False
-        Me.BunifuMetroTextbox1.Location = New System.Drawing.Point(116, 53)
+        Me.BunifuMetroTextbox1.Location = New System.Drawing.Point(208, 56)
         Me.BunifuMetroTextbox1.Margin = New System.Windows.Forms.Padding(4)
         Me.BunifuMetroTextbox1.MaxLength = 32667
         Me.BunifuMetroTextbox1.Name = "BunifuMetroTextbox1"
@@ -250,9 +250,9 @@ Partial Class Avance_1
         Me.Label7.ForeColor = System.Drawing.Color.FromArgb(CType(CType(114, Byte), Integer), CType(CType(112, Byte), Integer), CType(CType(123, Byte), Integer))
         Me.Label7.Location = New System.Drawing.Point(13, 53)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(95, 25)
+        Me.Label7.Size = New System.Drawing.Size(188, 25)
         Me.Label7.TabIndex = 13
-        Me.Label7.Text = "Muestra:"
+        Me.Label7.Text = "Cantidad de datos:"
         '
         'BunifuMetroTextbox2
         '
@@ -266,7 +266,7 @@ Partial Class Avance_1
         Me.BunifuMetroTextbox2.Font = New System.Drawing.Font("Century Gothic", 9.75!)
         Me.BunifuMetroTextbox2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.BunifuMetroTextbox2.isPassword = False
-        Me.BunifuMetroTextbox2.Location = New System.Drawing.Point(116, 134)
+        Me.BunifuMetroTextbox2.Location = New System.Drawing.Point(208, 142)
         Me.BunifuMetroTextbox2.Margin = New System.Windows.Forms.Padding(4)
         Me.BunifuMetroTextbox2.MaxLength = 32667
         Me.BunifuMetroTextbox2.Name = "BunifuMetroTextbox2"
@@ -279,7 +279,7 @@ Partial Class Avance_1
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Roboto", 15.75!)
         Me.Label8.ForeColor = System.Drawing.Color.FromArgb(CType(CType(114, Byte), Integer), CType(CType(112, Byte), Integer), CType(CType(123, Byte), Integer))
-        Me.Label8.Location = New System.Drawing.Point(34, 134)
+        Me.Label8.Location = New System.Drawing.Point(128, 142)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(73, 25)
         Me.Label8.TabIndex = 17
@@ -290,7 +290,7 @@ Partial Class Avance_1
         Me.Rango.AutoSize = True
         Me.Rango.Font = New System.Drawing.Font("Roboto", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Rango.ForeColor = System.Drawing.Color.Salmon
-        Me.Rango.Location = New System.Drawing.Point(564, 91)
+        Me.Rango.Location = New System.Drawing.Point(665, 90)
         Me.Rango.Name = "Rango"
         Me.Rango.Size = New System.Drawing.Size(17, 25)
         Me.Rango.TabIndex = 19
@@ -301,7 +301,7 @@ Partial Class Avance_1
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Roboto", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(114, Byte), Integer), CType(CType(112, Byte), Integer), CType(CType(123, Byte), Integer))
-        Me.Label1.Location = New System.Drawing.Point(480, 91)
+        Me.Label1.Location = New System.Drawing.Point(581, 90)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(78, 25)
         Me.Label1.TabIndex = 20
@@ -312,7 +312,7 @@ Partial Class Avance_1
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Roboto", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(114, Byte), Integer), CType(CType(112, Byte), Integer), CType(CType(123, Byte), Integer))
-        Me.Label3.Location = New System.Drawing.Point(457, 123)
+        Me.Label3.Location = New System.Drawing.Point(558, 122)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(101, 25)
         Me.Label3.TabIndex = 21
@@ -323,7 +323,7 @@ Partial Class Avance_1
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Roboto", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.Salmon
-        Me.Label4.Location = New System.Drawing.Point(564, 126)
+        Me.Label4.Location = New System.Drawing.Point(665, 125)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(17, 25)
         Me.Label4.TabIndex = 22
@@ -334,7 +334,7 @@ Partial Class Avance_1
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Roboto", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(114, Byte), Integer), CType(CType(112, Byte), Integer), CType(CType(123, Byte), Integer))
-        Me.Label6.Location = New System.Drawing.Point(455, 155)
+        Me.Label6.Location = New System.Drawing.Point(556, 154)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(104, 25)
         Me.Label6.TabIndex = 23
@@ -345,7 +345,7 @@ Partial Class Avance_1
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Roboto", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label10.ForeColor = System.Drawing.Color.Salmon
-        Me.Label10.Location = New System.Drawing.Point(564, 155)
+        Me.Label10.Location = New System.Drawing.Point(665, 154)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(17, 25)
         Me.Label10.TabIndex = 24
@@ -356,7 +356,7 @@ Partial Class Avance_1
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Roboto", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label11.ForeColor = System.Drawing.Color.FromArgb(CType(CType(114, Byte), Integer), CType(CType(112, Byte), Integer), CType(CType(123, Byte), Integer))
-        Me.Label11.Location = New System.Drawing.Point(503, 54)
+        Me.Label11.Location = New System.Drawing.Point(561, 53)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(232, 25)
         Me.Label11.TabIndex = 26
@@ -379,7 +379,7 @@ Partial Class Avance_1
         Me.BunifuCheckBox1.CheckState = Bunifu.UI.WinForms.BunifuCheckBox.CheckStates.Unchecked
         Me.BunifuCheckBox1.Cursor = System.Windows.Forms.Cursors.Hand
         Me.BunifuCheckBox1.CustomCheckmarkImage = Nothing
-        Me.BunifuCheckBox1.Location = New System.Drawing.Point(742, 57)
+        Me.BunifuCheckBox1.Location = New System.Drawing.Point(800, 56)
         Me.BunifuCheckBox1.MinimumSize = New System.Drawing.Size(17, 17)
         Me.BunifuCheckBox1.Name = "BunifuCheckBox1"
         Me.BunifuCheckBox1.OnCheck.BorderColor = System.Drawing.Color.FromArgb(CType(CType(99, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(155, Byte), Integer))
@@ -433,15 +433,15 @@ Partial Class Avance_1
         Me.BunifuButton1.IdleFillColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(122, Byte), Integer), CType(CType(183, Byte), Integer))
         Me.BunifuButton1.IdleIconLeftImage = Nothing
         Me.BunifuButton1.IdleIconRightImage = Nothing
-        Me.BunifuButton1.Location = New System.Drawing.Point(275, 53)
+        Me.BunifuButton1.Location = New System.Drawing.Point(367, 56)
         Me.BunifuButton1.Name = "BunifuButton1"
-        StateProperties1.BorderColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(96, Byte), Integer), CType(CType(144, Byte), Integer))
-        StateProperties1.BorderRadius = 1
-        StateProperties1.BorderThickness = 1
-        StateProperties1.FillColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(96, Byte), Integer), CType(CType(144, Byte), Integer))
-        StateProperties1.IconLeftImage = Nothing
-        StateProperties1.IconRightImage = Nothing
-        Me.BunifuButton1.onHoverState = StateProperties1
+        StateProperties9.BorderColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(96, Byte), Integer), CType(CType(144, Byte), Integer))
+        StateProperties9.BorderRadius = 1
+        StateProperties9.BorderThickness = 1
+        StateProperties9.FillColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(96, Byte), Integer), CType(CType(144, Byte), Integer))
+        StateProperties9.IconLeftImage = Nothing
+        StateProperties9.IconRightImage = Nothing
+        Me.BunifuButton1.onHoverState = StateProperties9
         Me.BunifuButton1.Size = New System.Drawing.Size(136, 32)
         Me.BunifuButton1.TabIndex = 28
         Me.BunifuButton1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -466,15 +466,15 @@ Partial Class Avance_1
         Me.BunifuButton2.IdleFillColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(122, Byte), Integer), CType(CType(183, Byte), Integer))
         Me.BunifuButton2.IdleIconLeftImage = Nothing
         Me.BunifuButton2.IdleIconRightImage = Nothing
-        Me.BunifuButton2.Location = New System.Drawing.Point(275, 132)
+        Me.BunifuButton2.Location = New System.Drawing.Point(367, 135)
         Me.BunifuButton2.Name = "BunifuButton2"
-        StateProperties2.BorderColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(96, Byte), Integer), CType(CType(144, Byte), Integer))
-        StateProperties2.BorderRadius = 1
-        StateProperties2.BorderThickness = 1
-        StateProperties2.FillColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(96, Byte), Integer), CType(CType(144, Byte), Integer))
-        StateProperties2.IconLeftImage = Nothing
-        StateProperties2.IconRightImage = Nothing
-        Me.BunifuButton2.onHoverState = StateProperties2
+        StateProperties10.BorderColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(96, Byte), Integer), CType(CType(144, Byte), Integer))
+        StateProperties10.BorderRadius = 1
+        StateProperties10.BorderThickness = 1
+        StateProperties10.FillColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(96, Byte), Integer), CType(CType(144, Byte), Integer))
+        StateProperties10.IconLeftImage = Nothing
+        StateProperties10.IconRightImage = Nothing
+        Me.BunifuButton2.onHoverState = StateProperties10
         Me.BunifuButton2.Size = New System.Drawing.Size(136, 32)
         Me.BunifuButton2.TabIndex = 29
         Me.BunifuButton2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -495,7 +495,7 @@ Partial Class Avance_1
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Roboto", 15.75!)
         Me.Label9.ForeColor = System.Drawing.Color.FromArgb(CType(CType(114, Byte), Integer), CType(CType(112, Byte), Integer), CType(CType(123, Byte), Integer))
-        Me.Label9.Location = New System.Drawing.Point(7, 91)
+        Me.Label9.Location = New System.Drawing.Point(100, 96)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(101, 25)
         Me.Label9.TabIndex = 30
@@ -513,7 +513,7 @@ Partial Class Avance_1
         Me.BunifuMetroTextbox3.Font = New System.Drawing.Font("Century Gothic", 9.75!)
         Me.BunifuMetroTextbox3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.BunifuMetroTextbox3.isPassword = False
-        Me.BunifuMetroTextbox3.Location = New System.Drawing.Point(116, 93)
+        Me.BunifuMetroTextbox3.Location = New System.Drawing.Point(208, 96)
         Me.BunifuMetroTextbox3.Margin = New System.Windows.Forms.Padding(4)
         Me.BunifuMetroTextbox3.MaxLength = 32667
         Me.BunifuMetroTextbox3.Name = "BunifuMetroTextbox3"
@@ -538,7 +538,7 @@ Partial Class Avance_1
         Me.BunifuCheckBox2.CheckState = Bunifu.UI.WinForms.BunifuCheckBox.CheckStates.Unchecked
         Me.BunifuCheckBox2.Cursor = System.Windows.Forms.Cursors.Hand
         Me.BunifuCheckBox2.CustomCheckmarkImage = Nothing
-        Me.BunifuCheckBox2.Location = New System.Drawing.Point(275, 97)
+        Me.BunifuCheckBox2.Location = New System.Drawing.Point(367, 100)
         Me.BunifuCheckBox2.MinimumSize = New System.Drawing.Size(17, 17)
         Me.BunifuCheckBox2.Name = "BunifuCheckBox2"
         Me.BunifuCheckBox2.OnCheck.BorderColor = System.Drawing.Color.FromArgb(CType(CType(99, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(155, Byte), Integer))
@@ -578,7 +578,7 @@ Partial Class Avance_1
         Me.Label13.AutoSize = True
         Me.Label13.Font = New System.Drawing.Font("Roboto", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label13.ForeColor = System.Drawing.Color.FromArgb(CType(CType(114, Byte), Integer), CType(CType(112, Byte), Integer), CType(CType(123, Byte), Integer))
-        Me.Label13.Location = New System.Drawing.Point(303, 95)
+        Me.Label13.Location = New System.Drawing.Point(395, 98)
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(96, 25)
         Me.Label13.TabIndex = 33
@@ -605,13 +605,13 @@ Partial Class Avance_1
         Me.BunifuButton3.IdleIconRightImage = Nothing
         Me.BunifuButton3.Location = New System.Drawing.Point(541, 496)
         Me.BunifuButton3.Name = "BunifuButton3"
-        StateProperties3.BorderColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(96, Byte), Integer), CType(CType(144, Byte), Integer))
-        StateProperties3.BorderRadius = 1
-        StateProperties3.BorderThickness = 1
-        StateProperties3.FillColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(96, Byte), Integer), CType(CType(144, Byte), Integer))
-        StateProperties3.IconLeftImage = Nothing
-        StateProperties3.IconRightImage = Nothing
-        Me.BunifuButton3.onHoverState = StateProperties3
+        StateProperties11.BorderColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(96, Byte), Integer), CType(CType(144, Byte), Integer))
+        StateProperties11.BorderRadius = 1
+        StateProperties11.BorderThickness = 1
+        StateProperties11.FillColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(96, Byte), Integer), CType(CType(144, Byte), Integer))
+        StateProperties11.IconLeftImage = Nothing
+        StateProperties11.IconRightImage = Nothing
+        Me.BunifuButton3.onHoverState = StateProperties11
         Me.BunifuButton3.Size = New System.Drawing.Size(136, 32)
         Me.BunifuButton3.TabIndex = 34
         Me.BunifuButton3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -621,7 +621,7 @@ Partial Class Avance_1
         Me.Label14.AutoSize = True
         Me.Label14.Font = New System.Drawing.Font("Roboto", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label14.ForeColor = System.Drawing.Color.FromArgb(CType(CType(114, Byte), Integer), CType(CType(112, Byte), Integer), CType(CType(123, Byte), Integer))
-        Me.Label14.Location = New System.Drawing.Point(674, 91)
+        Me.Label14.Location = New System.Drawing.Point(732, 90)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(76, 25)
         Me.Label14.TabIndex = 35
@@ -632,7 +632,7 @@ Partial Class Avance_1
         Me.Label15.AutoSize = True
         Me.Label15.Font = New System.Drawing.Font("Roboto", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label15.ForeColor = System.Drawing.Color.Salmon
-        Me.Label15.Location = New System.Drawing.Point(780, 91)
+        Me.Label15.Location = New System.Drawing.Point(814, 90)
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New System.Drawing.Size(17, 25)
         Me.Label15.TabIndex = 36
@@ -643,7 +643,7 @@ Partial Class Avance_1
         Me.Label16.AutoSize = True
         Me.Label16.Font = New System.Drawing.Font("Roboto", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label16.ForeColor = System.Drawing.Color.FromArgb(CType(CType(114, Byte), Integer), CType(CType(112, Byte), Integer), CType(CType(123, Byte), Integer))
-        Me.Label16.Location = New System.Drawing.Point(651, 123)
+        Me.Label16.Location = New System.Drawing.Point(709, 122)
         Me.Label16.Name = "Label16"
         Me.Label16.Size = New System.Drawing.Size(99, 25)
         Me.Label16.TabIndex = 37
@@ -654,7 +654,7 @@ Partial Class Avance_1
         Me.Label17.AutoSize = True
         Me.Label17.Font = New System.Drawing.Font("Roboto", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label17.ForeColor = System.Drawing.Color.Salmon
-        Me.Label17.Location = New System.Drawing.Point(780, 123)
+        Me.Label17.Location = New System.Drawing.Point(814, 122)
         Me.Label17.Name = "Label17"
         Me.Label17.Size = New System.Drawing.Size(17, 25)
         Me.Label17.TabIndex = 38
@@ -665,7 +665,7 @@ Partial Class Avance_1
         Me.Label18.AutoSize = True
         Me.Label18.Font = New System.Drawing.Font("Roboto", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label18.ForeColor = System.Drawing.Color.FromArgb(CType(CType(114, Byte), Integer), CType(CType(112, Byte), Integer), CType(CType(123, Byte), Integer))
-        Me.Label18.Location = New System.Drawing.Point(674, 155)
+        Me.Label18.Location = New System.Drawing.Point(737, 154)
         Me.Label18.Name = "Label18"
         Me.Label18.Size = New System.Drawing.Size(71, 25)
         Me.Label18.TabIndex = 39
@@ -676,7 +676,7 @@ Partial Class Avance_1
         Me.Label19.AutoSize = True
         Me.Label19.Font = New System.Drawing.Font("Roboto", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label19.ForeColor = System.Drawing.Color.Salmon
-        Me.Label19.Location = New System.Drawing.Point(780, 156)
+        Me.Label19.Location = New System.Drawing.Point(814, 155)
         Me.Label19.Name = "Label19"
         Me.Label19.Size = New System.Drawing.Size(17, 25)
         Me.Label19.TabIndex = 40
@@ -704,13 +704,13 @@ Partial Class Avance_1
         Me.BunifuButton4.IdleIconRightImage = Nothing
         Me.BunifuButton4.Location = New System.Drawing.Point(374, 496)
         Me.BunifuButton4.Name = "BunifuButton4"
-        StateProperties4.BorderColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(96, Byte), Integer), CType(CType(144, Byte), Integer))
-        StateProperties4.BorderRadius = 1
-        StateProperties4.BorderThickness = 1
-        StateProperties4.FillColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(96, Byte), Integer), CType(CType(144, Byte), Integer))
-        StateProperties4.IconLeftImage = Nothing
-        StateProperties4.IconRightImage = Nothing
-        Me.BunifuButton4.onHoverState = StateProperties4
+        StateProperties12.BorderColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(96, Byte), Integer), CType(CType(144, Byte), Integer))
+        StateProperties12.BorderRadius = 1
+        StateProperties12.BorderThickness = 1
+        StateProperties12.FillColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(96, Byte), Integer), CType(CType(144, Byte), Integer))
+        StateProperties12.IconLeftImage = Nothing
+        StateProperties12.IconRightImage = Nothing
+        Me.BunifuButton4.onHoverState = StateProperties12
         Me.BunifuButton4.Size = New System.Drawing.Size(161, 32)
         Me.BunifuButton4.TabIndex = 41
         Me.BunifuButton4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter

@@ -29,5 +29,35 @@
     Private Sub BunifuFlatButton2_Click(sender As Object, e As EventArgs) Handles BunifuFlatButton2.Click
         Abrirform(info)
         Novatostexto.Visible = False
+
+
+
+    End Sub
+
+    Private Sub BunifuFlatButton3_Click(sender As Object, e As EventArgs) Handles BunifuFlatButton3.Click
+        Abrirform(Avance_2)
+        Novatostexto.Visible = False
+
+
+    End Sub
+
+    Private Sub Principal_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Try
+
+            System.Threading.Thread.CurrentThread.CurrentCulture = New System.Globalization.CultureInfo("es-Es")
+            System.Threading.Thread.CurrentThread.CurrentCulture.DateTimeFormat.ShortDatePattern = "yyyy/MM/dd"
+            System.Threading.Thread.CurrentThread.CurrentCulture.NumberFormat.CurrencyDecimalSeparator = "."
+            System.Threading.Thread.CurrentThread.CurrentCulture.NumberFormat.CurrencyGroupSeparator = ","
+            System.Threading.Thread.CurrentThread.CurrentCulture.NumberFormat.NumberDecimalSeparator = "."
+            System.Threading.Thread.CurrentThread.CurrentCulture.NumberFormat.NumberGroupSeparator = ","
+
+        Catch ex As Exception
+            MsgBox("Error con la region , verifiquela o contacte con el desarrollador", MsgBoxStyle.Exclamation, "INFORMACION")
+        End Try
+    End Sub
+
+    Private Sub BunifuFlatButton4_Click(sender As Object, e As EventArgs) Handles BunifuFlatButton4.Click
+        Abrirform(Avance_3)
+        Novatostexto.Visible = False
     End Sub
 End Class

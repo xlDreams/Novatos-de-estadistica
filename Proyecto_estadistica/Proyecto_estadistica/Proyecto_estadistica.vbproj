@@ -58,26 +58,52 @@
     <Reference Include="Bunifu.UI.WinForms.BunifuCheckBox">
       <HintPath>G:\Programas\Programas Richard\Visual Studio\2019\Bunifu_UI_Form_1.9.0.1\Bunifu_UI_Form_1.﻿9.0.1\Bunifu UI WinForms 1.9.0.1\Bunifu.UI.WinForms.BunifuCheckBox.dll</HintPath>
     </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuCircleProgress">
+      <HintPath>G:\Programas\Programas Richard\Visual Studio\2019\Bunifu_UI_Form_1.9.0.1\Bunifu_UI_Form_1.﻿9.0.1\Bunifu UI WinForms 1.9.0.1\Bunifu.UI.WinForms.BunifuCircleProgress.dll</HintPath>
+    </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuDataGridView">
       <HintPath>G:\Programas\Programas Richard\Visual Studio\2019\Bunifu_UI_Form_1.9.0.1\Bunifu_UI_Form_1.﻿9.0.1\Bunifu UI WinForms 1.9.0.1\Bunifu.UI.WinForms.BunifuDataGridView.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuDropdown">
+      <HintPath>G:\Programas\Programas Richard\Visual Studio\2019\Bunifu_UI_Form_1.9.0.1\Bunifu_UI_Form_1.﻿9.0.1\Bunifu UI WinForms 1.9.0.1\Bunifu.UI.WinForms.BunifuDropdown.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuImageButton">
+      <HintPath>G:\Programas\Programas Richard\Visual Studio\2019\Bunifu_UI_Form_1.9.0.1\Bunifu_UI_Form_1.﻿9.0.1\Bunifu UI WinForms 1.9.0.1\Bunifu.UI.WinForms.BunifuImageButton.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuPictureBox">
       <HintPath>G:\Programas\Programas Richard\Visual Studio\2019\Bunifu_UI_Form_1.9.0.1\Bunifu_UI_Form_1.﻿9.0.1\Bunifu UI WinForms 1.9.0.1\Bunifu.UI.WinForms.BunifuPictureBox.dll</HintPath>
     </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuProgressBar">
+      <HintPath>G:\Programas\Programas Richard\Visual Studio\2019\Bunifu_UI_Form_1.9.0.1\Bunifu_UI_Form_1.﻿9.0.1\Bunifu UI WinForms 1.9.0.1\Bunifu.UI.WinForms.BunifuProgressBar.dll</HintPath>
+    </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuRadioButton">
       <HintPath>G:\Programas\Programas Richard\Visual Studio\2019\Bunifu_UI_Form_1.9.0.1\Bunifu_UI_Form_1.﻿9.0.1\Bunifu UI WinForms 1.9.0.1\Bunifu.UI.WinForms.BunifuRadioButton.dll</HintPath>
     </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuScrollBar">
+      <HintPath>G:\Programas\Programas Richard\Visual Studio\2019\Bunifu_UI_Form_1.9.0.1\Bunifu_UI_Form_1.﻿9.0.1\Bunifu UI WinForms 1.9.0.1\Bunifu.UI.WinForms.BunifuScrollBar.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuTextbox">
+      <HintPath>G:\Programas\Programas Richard\Visual Studio\2019\Bunifu_UI_Form_1.9.0.1\Bunifu_UI_Form_1.﻿9.0.1\Bunifu UI WinForms 1.9.0.1\Bunifu.UI.WinForms.BunifuTextbox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.ToggleSwitch">
+      <HintPath>G:\Programas\Programas Richard\Visual Studio\2019\Bunifu_UI_Form_1.9.0.1\Bunifu_UI_Form_1.﻿9.0.1\Bunifu UI WinForms 1.9.0.1\Bunifu.UI.WinForms.ToggleSwitch.dll</HintPath>
+    </Reference>
     <Reference Include="Bunifu_UI_v1.5.3">
       <HintPath>G:\Programas\Programas Richard\Visual Studio\2019\Bunifu_UI_Form_1.9.0.1\Bunifu_UI_Form_1.﻿9.0.1\Bunifu UI WinForms 1.9.0.1\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI">
+      <HintPath>..\..\..\..\..\Downloads\Guna.UI-Framework-Lib-master\Guna.UI-Framework-Lib-master\Guna.UI WinForms\.net 4.0\Guna.UI.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
     <Reference Include="System.Design" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
     <Reference Include="System.Management" />
     <Reference Include="System.Security" />
     <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -103,6 +129,18 @@
       <DependentUpon>Avance 1.vb</DependentUpon>
     </Compile>
     <Compile Include="Formularios\Formularios Hijos\Avance 1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Formularios Hijos\Avance 2.Designer.vb">
+      <DependentUpon>Avance 2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Formularios Hijos\Avance 2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Formularios Hijos\Avance 3.Designer.vb">
+      <DependentUpon>Avance 3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Formularios Hijos\Avance 3.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Formularios\Formularios Hijos\info.Designer.vb">
@@ -137,6 +175,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Formularios\Formularios Hijos\Avance 1.resx">
       <DependentUpon>Avance 1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Formularios Hijos\Avance 2.resx">
+      <DependentUpon>Avance 2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Formularios Hijos\Avance 3.resx">
+      <DependentUpon>Avance 3.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Formularios Hijos\info.resx">
       <DependentUpon>info.vb</DependentUpon>
